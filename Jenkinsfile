@@ -17,7 +17,7 @@ pipeline {
         
         stage('Checkout') {
             steps {
-                 git branch: 'main', credentialsId: 'test', url: 'https://github.com/Abhi37-AGL/cicdtest.git'
+                 git branch: 'main', credentialsId: 'test', url: 'https://github.com/Abhi37-AGL/pipeline_jenkins.git'
             }
         }
  
